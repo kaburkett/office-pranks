@@ -17,3 +17,16 @@ Sets a scheduled task to call designated number once a day automatically.
 * Put cmd script in the user's startup folder (must be the user you want to prank).
 * Reboot computer.
 * User logs in and phone will call designated number daily.
+
+### Alternatively
+Run multiCall.cmd through powershell or cmd.
+* Replace `3` in `FOR /L %%A IN (1, 1, 3)` with the number of times to call.
+* Replace `ciscotel:3216` with the extension of the user you wish to call.
+* `-w 30000` is the switch that determines ms between calls.
+* Must be run on the local network.
+
+## Issues
+Opens Issues by Julia Michaels on users browser at startup
+ 
+ * Must be added to user's startup folder
+ * Should only be used for people who have issues.
