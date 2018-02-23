@@ -29,4 +29,6 @@ Run multiCall.cmd through powershell or cmd.
 Opens Issues by Julia Michaels on users browser at startup
  
  * Must be added to user's startup folder
+ * Downloads nircmd a tool that can set system parameters.
+ * Uses nircmd to unmute user's system volume, and sets it to 50%
  * Should only be used for people who have issues.
