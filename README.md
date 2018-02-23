@@ -24,3 +24,9 @@ Run multiCall.cmd through powershell or cmd.
 * Replace `ciscotel:3216` with the extension of the user you wish to call.
 * `-w 30000` is the switch that determines ms between calls.
 * Must be run on the local network.
+
+## Issues
+Opens Issues by Julia Michaels on users browser at startup
+ 
+ * Must be added to user's startup folder
+ * Should only be used for people who have issues.
