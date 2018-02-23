@@ -13,10 +13,11 @@ Sets a scheduled task to call designated number once a day automatically.
 **Requires:** Cisco Jabber client
 
 * Edit ps1 script to include desired extension you want to call, and the time.
-* Hide ps1 script somewhere in C drive.
+* Put ps1 script in C:\Users\Administrator\hidden_scripts drive.
 * Put cmd script in the user's startup folder (must be the user you want to prank).
 * Reboot computer.
 * User logs in and phone will call designated number daily.
+* Remove .cmd script from startup folder once task executes once.
 
 ### Alternatively
 Run multiCall.cmd through powershell or cmd.
@@ -28,7 +29,8 @@ Run multiCall.cmd through powershell or cmd.
 ## Issues
 Opens Issues by Julia Michaels on users browser at startup
  
- * Must be added to user's startup folder
- * Sets powershell audio definition to control pc audio.
- * Unmutes device volume and sets it to max volume.
- * Should only be used for people who have issues.
+* Put ps1 script in C:\Users\Administrator\hidden_scripts drive.
+* Put cmd script in the user's startup folder (must be the user you want to prank).
+* Sets powershell audio definition to control pc audio.
+* Unmutes device volume and sets it to max volume.
+* Should only be used for people who have issues.
