@@ -53,7 +53,7 @@ Press Alt+F11 to edit the macro and alter the webpage that gets launched.
 
 Ejects cd drive on user's computer remotely.
 
-** Requires: ** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
+**Requires:** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
 
 * cd into directory on your pc that contains ejectcd.exe
 * open powershell and run: psexec \\computername -c ejectcd.exe
