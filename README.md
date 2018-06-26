@@ -48,3 +48,20 @@ Contains a macro that launches a webpage when the workbook is opened. Macros mus
 Press Alt+F11 to edit the macro and alter the webpage that gets launched.
 
 * Deliver spreadsheet under false pretenses.
+
+## Eject CD
+
+Ejects cd drive on user's computer remotely.
+
+** Requires: ** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
+
+* cd into directory on your pc that contains ejectcd.exe
+* open powershell and run: psexec \\computername -c ejectcd.exe
+
+## Chrome Bomb
+
+Disables chrome usability and opens 10 windows every time it's launched. The best way to reverse this is to reinstall chrome.
+
+* Copy contents of chromeBomb directory to user's pc in a hidden location
+* Run deploy.cmd from user's computer to install chromeBomb (can also be done with psexec)
+* Can safely remove chromeBomb directory.
