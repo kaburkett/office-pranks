@@ -65,3 +65,12 @@ Disables chrome usability and opens 10 windows every time it's launched. The bes
 * Copy contents of chromeBomb directory to user's pc in a hidden location
 * Run deploy.cmd from user's computer to install chromeBomb (can also be done with psexec)
 * Can safely remove chromeBomb directory.
+
+## Mouse Jiggler
+
+Works just like eject cd.
+
+**Requires:** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
+
+* cd into directory on your pc that contains MouseJiggle.exe
+* open powershell and run: psexec \\computername -c -f "MouseJiggle.exe" -j -m
