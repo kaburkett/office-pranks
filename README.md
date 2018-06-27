@@ -68,9 +68,14 @@ Disables chrome usability and opens 10 windows every time it's launched. The bes
 
 ## Mouse Jiggler
 
-Works just like eject cd.
+Works similarly to eject cd, but requires session id to run as user as a parameter
 
 **Requires:** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
 
 * cd into directory on your pc that contains MouseJiggle.exe
-* open powershell and run: psexec \\computername -c -f "MouseJiggle.exe" -j -m
+* psexec \\computername query session
+* psexec \\computername -i (sesh id) -c -f "MouseJiggle.exe" -j -m
+
+To end, run:
+
+* pskill \\computername "MouseJiggle.exe"
