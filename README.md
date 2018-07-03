@@ -73,8 +73,8 @@ Works similarly to eject cd, but requires session id to run as user as a paramet
 **Requires:** psexec (download here: https://docs.microsoft.com/en-us/sysinternals/downloads/psexec)
 
 * cd into directory on your pc that contains MouseJiggle.exe
-* psexec \\computername query session
-* psexec \\computername -i (sesh id) -c -f "MouseJiggle.exe" -j -m
+* `psexec` \\\\computername query session
+* `psexec` \\\\computername -i (sesh id) -c -f "MouseJiggle.exe" -j -m
 
 To end, run:
 
@@ -86,3 +86,14 @@ Will replace spaces with dashes. **Warning: after use, passwords with spaces wil
 
 * Double click to install reg file on desired machine
 * Reboot to take affect
+* `pskill` \\\\computername "MouseJiggle.exe"
+
+## Kill Windows Explorer
+
+Kills windows explorer on the target machine which removes the taskbar, windows icon and closes any open folders.
+
+This prank doesnt require any code to run.
+
+* `pskill` \\\\computername "explorer.exe"
+
+To reenable the user must open task manager, choose add new task and enter `explorer.exe`
