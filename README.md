@@ -79,3 +79,10 @@ Works similarly to eject cd, but requires session id to run as user as a paramet
 To end, run:
 
 * pskill \\computername "MouseJiggle.exe"
+
+## Keyboard Remap
+
+Will replace spaces with dashes. **Warning: after use, passwords with spaces will not work**
+
+* Double click to install reg file on desired machine
+* Reboot to take affect
