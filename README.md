@@ -23,6 +23,14 @@ Sets a scheduled task to call designated number once a day automatically.
 * User logs in and phone will call designated number daily.
 * Remove .cmd script from startup folder once task executes once.
 
+Note: IMs can be influenced using im: as url instead of ciscotel: 
+
+    im:user_a@domain.com;user_b@domain.com;user_c@domain.com?message;subject=I.T%20Desk;body=Jabber%2010.5%20Query
+
+Multiple people can be called using ciscotelconf: instead of ciscotel:
+
+    CISCOTELCONF:msmith@domain;amckenzi@domain
+
 **Alternatively:**
 
 Run multiCall.cmd through powershell or cmd.
