@@ -74,7 +74,7 @@ Works similarly to eject cd, but requires session id to run as user as a paramet
 
 * cd into directory on your pc that contains MouseJiggle.exe
 * `psexec` \\\\computername query session
-* `psexec` \\\\computername -i (sesh id) -c -f "MouseJiggle.exe" -j -m
+* `psexec` \\\\computername -s -h -i (sesh id.. likely 1) -c -f "MouseJiggle.exe" -j -m
 
 To end, run:
 
