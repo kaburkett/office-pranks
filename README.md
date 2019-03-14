@@ -104,3 +104,9 @@ This prank doesnt require any code to run.
 * `pskill` \\\\computername "explorer.exe"
 
 To reenable the user must open task manager, choose add new task and enter `explorer.exe`
+
+## Symantic Antivirus
+
+Displays a cmd window to fool a user into waiting for antivirus definitions to update. Finishes update at 69 and 420 %. 
+
+* Put cmd script in the user's startup folder (must be the user you want to prank).
