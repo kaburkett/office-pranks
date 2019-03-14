@@ -1,6 +1,6 @@
-# office-pranks
+# Office Pranks
 
-Compilation of assorted pranks. Most require admin privileges on the computer.
+Compilation of assorted pranks designed for Windows OS. Most require admin privileges only, or access to a users pc while they are away. For pranks requiring psexec, psexec is required on the pranker's computer only- not the user being pranked. 
 
 ## Bitcoin Miner
 
