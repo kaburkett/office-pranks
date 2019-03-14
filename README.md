@@ -94,7 +94,6 @@ Will replace spaces with dashes. **Warning: after use, passwords with spaces wil
 
 * Double click to install reg file on desired machine
 * Reboot to take affect
-* `pskill` \\\\computername "MouseJiggle.exe"
 
 ## Kill Windows Explorer
 
